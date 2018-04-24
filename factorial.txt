@@ -1,0 +1,29 @@
+Program "factorial&sum"
+Begin
+
+read(n);
+
+prod=1;
+sum=0;
+i=1;
+
+while(i<n) do
+
+prod = prod * i;
+v = n - 2 ;
+
+if(i<=v) then
+sum = sum + i;
+else
+j = i * i;
+sum = sum + j;
+EndIf
+
+i = i + 1;
+Repeat
+
+write(prod);
+write(sum);
+
+End
+EndProg

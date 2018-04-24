@@ -1,0 +1,28 @@
+Program "test"
+Begin
+v = 12;
+g = 13;
+
+read(g);
+
+i=0;
+while(i<=10) do
+write(i);
+i = i + 1;
+Repeat
+
+
+if(v==21) then
+v = 1;
+g = 22;
+else
+v = 14;
+g = v * 20 + 1 * g ;
+EndIf
+
+
+write(g);
+write(v);
+
+End
+EndProg
